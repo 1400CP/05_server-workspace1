@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<h1>* JSP(Java Server Page)</h1>
+	
+	<p>
+		JSP란, HTML 내에서 자바코드를 쓸 수 있는 "자바언어"로 <br>
+		Servlet(자바코드내)에서 응답화면을 구현
+	</p>
+	
+	
+	
+</body>
+</html>

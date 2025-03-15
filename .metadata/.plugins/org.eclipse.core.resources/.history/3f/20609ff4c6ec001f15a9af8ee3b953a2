@@ -1,0 +1,25 @@
+<%@page import="java.text.SimpleDateFormat"%>
+<%@page import="java.util.Date"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<h1>피자 주문 페이지</h1>
+	
+	<h2>오늘의 날짜</h2>
+	<%
+		Date today = new Date();
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy년 MM월 dd일");
+	%>
+	
+	<h4><%= sdf.format(today) %></h4>
+	
+
+</body>
+</html>

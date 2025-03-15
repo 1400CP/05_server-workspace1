@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<h1>Get 방식으로 요청 후 응답페이지 보기</h1>
+	
+	<h2>개인 정보 입력</h2>
+	<p>당신의 개인 정보를 입력해 주세요. 입력 후 확인 버튼을 눌러주세요.</p>
+	
+	<form>
+		
+	</form>
+	
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

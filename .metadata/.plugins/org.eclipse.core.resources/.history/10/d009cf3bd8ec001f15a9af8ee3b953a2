@@ -1,0 +1,60 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%
+	String userName = (String)request.getAttribute("userName"); // getAttribute()는 object임. 강제형변환 해야 함.
+	String phone = (String)request.getAttribute("phone");
+	String address = (String)request.getAttribute("address");
+	String message = (String)request.getAttribute("message");
+	String pizza = (String)request.getAttribute("pizza");
+	String[] toppings = (String[])request.getAttribute("toppings");
+	String[] sides = (String[])request.getAttribute("sides");
+	String payment = (String)request.getAttribute("payment");
+	String price = (String)request.getAttribute("price");
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+    <h1>피자 결제 페이지</h1>
+
+    <h2>주문내역</h2>
+
+    <h4>[주문자 정보]</h4>
+
+    <ul>
+        <li>성함 : xxx</li>
+        <li>전화번호 : xxxxxxxxxxxx</li>
+        <li>주소 : xxx xxx</li>
+
+        <li>요청사항 : 작성 안 함</li> <!-- case1 -->
+        <li>요청사항 : xxxxx </li> <!-- case2 -->
+    </ul>
+
+    <br>
+
+    <h4>주문정보</h4>
+
+    <ul>
+        <li>피자 : xxxxx</li>
+
+        <li>토핑 : 선택 안 함</li> <!-- case1 -->
+        <li>토핑 : xxx, xxxx, xxxx</li> <!-- case2 -->
+
+        <li>사이드 : 선택 안 함</li> <!-- case1 -->
+        <li>사이드 : xxx, xx</li> <!-- case2 -->
+
+        <li>결제방식 : xx</li>
+    </ul>
+
+    <hr>
+
+    <h3>위와 같이 주문하셨습니다.</h3>
+
+    <h2>총가격:xx원</h2>
+
+</body>
+</html>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;1_Servlet/webapp/WEB-INF/clsses&apos; to &apos;classes&apos;" description="Rename resource &apos;clsses&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="webapp/WEB-INF/clsses" name="classes" stamp="1739495793567" updateReferences="true"/>
+</session>
